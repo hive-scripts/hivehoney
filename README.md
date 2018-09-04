@@ -7,7 +7,7 @@ Because there are 2 interactive questions I had to pause after password.
 
  
 
-Mode expect details are here: Automating pbrun login using expect.
+Mode expect+pbrun details are here: https://github.com/hive-scripts/hivehoney/blob/master/expect_pbrun_howto.md
 
  
  
