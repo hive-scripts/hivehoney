@@ -24,9 +24,9 @@ Run it like this:
 
  
 ```
-set PROXY_HOST=bdgtproxyhad01h2d
+set PROXY_HOST=your_bastion_host
 
-set SERVICE_USER=gfocnnsg
+set SERVICE_USER=you_func_user
 
 set LINUX_USER=your_SOID
 
