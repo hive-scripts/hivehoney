@@ -1,0 +1,18 @@
+#!/usr/bin/expect -f
+set timeout 300
+set usr [lindex $argv 0];
+set pwd [lindex $argv 1];
+set query_file [lindex $argv 2];
+spawn -noecho pbrun $usr &
+expect -re "Password:"
+send "$pwd\r"
+
+sleep 1
+expect "Enter reason for this privilege access:"
+send "test\r"
+
+send "kinit -k -t /opt/Cloudera/keytabs/`whoami`.`hostname -s`.keytab `whoami`/`hostname -f`@NAMUXDEV.DYN.NSROOT.NET;ssl=true\r"
+send "beeline -u 'jdbc:hive2://bigdataplatform-dev.nam.nsroot.net:10000/;principal=hive/bigdataplatform-dev.nam.nsroot.net@NAMUXDEV.DYN.NSROOT.NET;ssl=true' --outputformat=csv2 --verbose=false  --fastConnect=true   --silent=true -f $query_file;\r"
+
+expect "*]$\ " {send "exit\r"}
+expect eof
