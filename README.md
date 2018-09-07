@@ -14,7 +14,10 @@ Mode expect+pbrun details are here: https://github.com/hive-scripts/hivehoney/bl
 
 ## Data access path.
 
-Linux login->pbrun service login->kinit->beeline
+Linux login->
+            pbrun service login->
+                                kinit->
+                                beeline
 
  
 
