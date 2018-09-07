@@ -21,7 +21,7 @@ Windows desktop->
                                            kinit
                                            beeline->
                                                    SQL->
-                                                       save echo on Windows OS
+                                                       save echo on Windows
                                 
 ```
  
