@@ -18,7 +18,8 @@ Linux login->
             pbrun service login->
                                 kinit
                                 beeline->
-                                        save echo on Windows OS
+                                        SQL->
+                                            save echo on Windows OS
                                 
 ```
  
