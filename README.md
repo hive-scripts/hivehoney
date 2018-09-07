@@ -16,8 +16,10 @@ Mode expect+pbrun details are here: https://github.com/hive-scripts/hivehoney/bl
 ```
 Linux login->
             pbrun service login->
-                                kinit->
-                                beeline
+                                kinit
+                                beeline->
+                                        save echo on Windows OS
+                                
 ```
  
 
