@@ -1,5 +1,5 @@
 # hivehoney
-Extract data from remmote Hive to local Windows OS (without Hadoop client).
+Extract data from remote Hive to local Windows OS (without Hadoop client).
 
 The most difficult part was figuring out expect+pbrun.
 
