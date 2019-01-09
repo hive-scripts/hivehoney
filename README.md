@@ -109,7 +109,7 @@ You can use Hive syntax to extract data to HDFS or locally (to a node with Hadoo
 No, It's hardcoded to automate pbrun authorization.
 
 #### Does it create any files?
-Yes, it creates sql file with query and expect file for pbrun automation.
+Yes, it creates sql file with query and expect file for pbrun automation (in your bastion/jump host `/tmp` dir).
 
 #### Explain steps of data extract?
 From Windows desktop:
