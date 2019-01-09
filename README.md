@@ -98,7 +98,7 @@ No, it is extracting to local windows OS.
 No. It's for ad-hoc data retrieval.
 
 #### what's the purpose of Hive Honey?
-Improve exparience of Data and Business Analysts with Big Data.
+Improve experience of Data and Business Analysts with Big Data.
 
 
 #### What are the other ways to extract data from Hive?
