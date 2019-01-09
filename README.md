@@ -105,7 +105,7 @@ Improve experience of Data and Business Analysts with Big Data.
 You can use Hive syntax to extract data to HDFS or locally (to a node with Hadoop client)
 
 
-#### Can I be executed without pbrun?
+#### Can it be executed without pbrun?
 No, It's hardcoded to automate pbrun authorization.
 
 #### Does it create any files?
