@@ -8,4 +8,4 @@ author = "Alex Buzunov"
 author-email = "alex_buz@icloud.com"
 home-page = "https://github.com/hive-scripts/hivehoney"
 classifiers = ["License :: OSI Approved :: MIT License"]
-
+description-file="README.rst"
