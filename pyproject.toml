@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "hivehoney"
+author = "Alex Buzunov"
+author-email = "alex_buz@icloud.com"
+home-page = "https://github.com/hive-scripts/hivehoney"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
