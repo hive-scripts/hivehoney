@@ -84,56 +84,17 @@ select * from gfocnnsg_work.pytest LIMIT  1000000;
                      0 Dir(s)     321,822,720 bytes free
 
                
-#
-#
-#
-#
-#   
-# FAQ
-#  
-#### Can it extract CSV file to cluster node? 
-No, it is extracting to local windows OS.
-
-#### Can developers integrate Hive Honew into their ETL pipelines?
-No. It's for ad-hoc data retrieval.
-
-#### what's the purpose of Hive Honey?
-Improve experience of Data and Business Analysts with Big Data.
 
 
-#### What are the other ways to extract data from Hive?
-You can use Hive syntax to extract data to HDFS or locally (to a node with Hadoop client)
 
 
-#### Can it be executed without pbrun?
-No, It's hardcoded to automate pbrun authorization.
-
-#### Does it create any files?
-Yes, it creates sql file with query and expect file for pbrun automation (in your bastion/jump host `/tmp` dir).
-
-#### Explain steps of data extract?
-From Windows desktop:
-     1. SSH to Linux
-     2. Pbrun service login
-     3. kinit
-     4. beeline executes SQL
-     5. Echo of data from beeline is saved on Windows.
-                                
-
-#### What technology was used to create this tool
-I used Python and paramiko to write it.
-
-#### Can you modify functionality and add features?
-Yes, please, ask me for new features.
 
 
-## Teardown
-https://github.com/pydemo/teardown
 
+## Other scripts
 
+ - https://github.com/pydemo/snowcli - Snowflake cli.
+ - https://github.com/pydemo/Snowpipe-For-SQLServer - Memory pipe from SQLServer to Snowflake
+ - https://github.com/pydemo/large-file-split-compress-parallel-upload-to-S3 - Chunked large file upload to S3
+ 
 [<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
-
-
-## Snowpipe
-
-https://github.com/pydemo/Snowpipe-For-SQLServer
