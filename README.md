@@ -10,7 +10,7 @@ Because there are 2 interactive questions I had to pause after password.
 
  
 
-Mode expect+pbrun details are here: https://github.com/hive-scripts/hivehoney/blob/master/expect_pbrun_howto.md
+More expect+pbrun details are here: https://github.com/hive-scripts/hivehoney/blob/master/expect_pbrun_howto.md
 
  
  
