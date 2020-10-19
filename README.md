@@ -96,6 +96,8 @@ select * from gfocnnsg_work.pytest LIMIT  1000000;
 
 ## Other scripts
 
+
+ - https://github.com/pydemo/pyspark_extractor - Extract data from Spark cluster
  - https://github.com/pydemo/snowcli - Snowflake cli.
  - https://github.com/pydemo/Snowpipe-For-SQLServer - Memory pipe from SQLServer to Snowflake
  - https://github.com/pydemo/large-file-split-compress-parallel-upload-to-S3 - Chunked large file upload to S3
